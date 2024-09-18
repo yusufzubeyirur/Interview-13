@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Bileşen container'ı */
+div > div {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+/* Buton stili */
+button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Giriş alanı stili */
+input[type="number"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 10px;
+  width: calc(100% - 22px); /* Genişlik ayarı, padding ve border'ı hesaba katar */
+  margin: 10px 0;
+}
+
+input[type="number"]::placeholder {
+  color: #888;
+}
+
+/* Sonuç alanı stili */
+div > div > div {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
